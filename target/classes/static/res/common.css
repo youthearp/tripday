@@ -1,0 +1,69 @@
+@charset "UTF-8";
+div.container { width: 800px; margin: 10px auto; font-size: 10pt; }
+
+/* .btn { padding: 0.4em 1em; border: 1px solid gray;
+       border-radius: 0.5em; background: linear-gradient(#fff, #ddd);
+       text-decoration: none; color: black;
+       display: inline-block; } */
+
+.btn:active, .btn-mini:active {
+      -ms-transform: translateY(2px);
+      -webkit-transform: translateY(2px);
+      transform: translateY(2px);
+      background: #ccc; }
+
+.btn-mini { padding: 0.1em 0.3em; border: 1px solid gray;
+       border-radius: 0.4em; background: linear-gradient(#fff, #ddd);
+       text-decoration: none; color: black;
+       display: inline-block; font-size: 10pt; }
+
+table.list { border-collapse: collapse; width: 100%; }
+table.list td { padding: 6px; border: 1px solid #ccc; }
+table.list th { padding: 6px; border: 1px solid #ccc;  background-color: #eee; }
+
+input { padding: 4px; }
+select { padding: 4px; }
+
+div[data-url]:hover { cursor: pointer; background-color: grey; }
+.box { box-shadow: 0 0 4px lightgray, 2px 2px 4px gray; }
+
+table.pagination { border-collapse: collapse; margin-top: 1em; width: 70%; margin : auto;}
+table.pagination td { border: 1px solid #ccc; text-align: center; }
+table.pagination td.active { background-color:black; }
+table.pagination a { text-decoration: none; color: black; display: inline-block;
+                     width: 30px; padding: 6px; }
+table.pagination td.active a { color: white; }
+
+.bt_css{
+	color:black;
+	  min-width: 80px;
+	  padding: 10px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  cursor: pointer;
+	  border-radius: 2px;
+	  border: 1px solid #000;
+	  font-size: 1.4rem;
+}
+.bt_css_small{
+	color:black;
+	  min-width: 50px;
+	  padding: 5px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  cursor: pointer;
+	  border-radius: 2px;
+	  border: 1px solid #000;
+	  font-size: 1rem;
+	  
+}
+.bt_css:hover{
+	text-decoration: none;
+}
+.bt_black{
+	
+	background: #000;
+	color: #fff;
+}
